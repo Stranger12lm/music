@@ -522,7 +522,7 @@
           this.sound = new THREE.Audio(listener);
           const audioLoader = new THREE.AudioLoader();
           audioLoader.load(
-            "https://docs.google.com/uc?export=download&id=160LUFYN6odw1nyyyNr8793lqD45te8ES",
+            "music.mp3",
             buffer => {
               this.sound.setBuffer(buffer);
               this.sound.setLoop(false);
@@ -634,5 +634,6 @@
     world.loop();
   </script>
 </body>
+
 
 </html>
